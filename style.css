@@ -1,0 +1,30 @@
+body,html {
+	background: linear-gradient(135deg, #103B5C 30%, green) no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: orange;
+}
+
+button {
+	background-color: green;
+	color: black;
+	border-radius: 50%;
+	padding: 32px 16px;
+	text-align: center;
+	
+}
+
+.center {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	transform: translateX(200%);
+}
